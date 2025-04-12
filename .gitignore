@@ -1,0 +1,87 @@
+# =====================
+# Flutter & Dart Specific
+# =====================
+# Build and dependency directories
+**/build/
+.dart_tool/
+.pub-cache/
+.pub/
+.flutter-plugins
+.flutter-plugins-dependencies
+**/doc/api/
+**/ios/Flutter/.last_build_id
+
+# Generated files
+*.iml
+*.lock
+.metadata
+.packages
+*.symbols
+*.map.json
+
+# =====================
+# Android Specific
+# =====================
+/android/gradle-wrapper.jar
+/android/.gradle/
+/android/local.properties
+/android/**/GeneratedPluginRegistrant.java
+/android/app/debug
+/android/app/profile
+/android/app/release
+
+# =====================
+# iOS Specific
+# =====================
+/ios/**/*.mode1v3
+/ios/**/*.mode2v3
+/ios/**/*.moved-aside
+/ios/**/*.pbxuser
+/ios/**/*.perspectivev3
+/ios/**/*sync/
+/ios/**/.symlinks/
+/ios/**/.generated/
+/ios/Flutter/App.framework/
+/ios/Flutter/Flutter.framework/
+/ios/Flutter/Flutter.podspec
+/ios/ServiceDefinitions.json
+/ios/Runner/GeneratedPluginRegistrant.*
+
+# =====================
+# Web Specific
+# =====================
+/web/
+.env
+.env*
+
+# =====================
+# IDE Specific
+# =====================
+# IntelliJ
+*.ipr
+*.iws
+.idea/
+
+# VS Code (uncomment if you want to exclude)
+.vscode/
+
+# =====================
+# System Files
+# =====================
+.DS_Store
+Thumbs.db
+
+# =====================
+# Miscellaneous
+# =====================
+*.class
+*.log
+*.pyc
+*.swp
+.atom/
+.build/
+.buildlog/
+.history
+.svn/
+.swiftpm/
+migrate_working_dir/

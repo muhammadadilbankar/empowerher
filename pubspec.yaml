@@ -1,0 +1,30 @@
+name: empowerher
+description: AI-Powered Upskilling & Employment Platform for Underprivileged Women
+publish_to: 'none'
+version: 1.0.0+1
+
+environment:
+  sdk: '>=3.7.2 <4.0.0'  # Wider SDK range for compatibility
+
+dependencies:
+  flutter:
+    sdk: flutter
+  cupertino_icons: ^1.0.8  # Kept the higher version (1.0.8 > 1.0.2)
+  percent_indicator: ^4.2.3  # From v0 (for progress bars)
+  intl: ^0.18.1  # From v0 (for localization/formatting)
+  # Add other existing dependencies from your project here
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^5.0.0  # Kept the higher version (5.0.0 > 2.0.0)
+
+flutter:
+  uses-material-design: true
+  assets:
+    - assets/  # From v0 (for images/icons)
+  # Uncomment and add other assets/fonts as needed
+  # fonts:
+  #   - family: YourFont
+  #     fonts:
+  #       - asset: fonts/YourFont-Regular.ttf
